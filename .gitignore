@@ -3,5 +3,7 @@ activate.php
 authenticate.php
 forgot.php
 phpinfo.php
-quicksearch.html
-table.html
+*.html
+*.pdf
+*.tar.gz
+uploads/*.jpg
