@@ -1,0 +1,24 @@
+<!-- Quick Search Div Start -->
+<div class="search-box">
+    <div class="search-box-container">
+        <div class="search-box-content">
+            <ul>
+                <li><a href="#" class="content">The Flash Season 3 Episode 3</a> in <a href="" class="category">TV Series</a></li>
+                <li><a href="#" class="content">Leonardo Da Vinci</a> in <a href="" class="category">Movies</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Quick Search Div End -->
+
+include dashboard.css and dashboard.js
+
+<!-- Quick Search div JS -->
+<script type="text/javascript">
+    $('.search-bar').focus(function() {
+        $('.search-box').css('display','block').css('opacity','1');
+    });
+    $('.search-bar').blur(function() {
+        $('.search-box').css('display','none').css('opacity','0');
+    });
+</script>
