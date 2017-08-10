@@ -1,9 +1,10 @@
 mail
 activate.php
-authenticate.php
 forgot.php
 phpinfo.php
 *.html
 *.pdf
 *.tar.gz
 uploads/*.jpg
+.idea/*
+
