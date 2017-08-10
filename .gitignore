@@ -6,5 +6,6 @@ phpinfo.php
 *.pdf
 *.tar.gz
 uploads/*.jpg
+uploads/*.png
 .idea/*
 
